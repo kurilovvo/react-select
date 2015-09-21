@@ -37,9 +37,7 @@
     "react": ">=0.13.3 || ^0.14.0-rc1"
   },
   "browserify-shim": {
-    "classnames": "global:classNames",
-    "react": "global:React",
-    "react-input-autosize": "global:AutosizeInput"
+    "react": "global:React"
   },
   "scripts": {
     "build": "gulp clean && NODE_ENV=production gulp build",
