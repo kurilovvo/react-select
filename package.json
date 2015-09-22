@@ -5,7 +5,7 @@
   "main": "lib/Select.js",
   "style": "dist/default.css",
   "author": "Jed Watson",
-  "license": "MIT",
+  "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
     "url": "https://github.com/JedWatson/react-select.git"
@@ -63,5 +63,12 @@
     "react-component",
     "select",
     "ui"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/JedWatson/react-select/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  }
 }
