@@ -1,4 +1,4 @@
-var React = require('react');
+//var React = require('react');
 var classes = require('classnames');
 
 var Option = React.createClass({

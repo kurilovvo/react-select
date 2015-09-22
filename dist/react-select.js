@@ -19875,7 +19875,7 @@ module.exports = warning;
 module.exports = require('./lib/React');
 
 },{"./lib/React":30}],158:[function(require,module,exports){
-var React = require('react');
+//var React = require('react');
 var classes = require('classnames');
 
 var Option = React.createClass({displayName: "Option",
@@ -19929,12 +19929,12 @@ var Option = React.createClass({displayName: "Option",
 
 module.exports = Option;
 
-},{"classnames":1,"react":157}],159:[function(require,module,exports){
+},{"classnames":1}],159:[function(require,module,exports){
 /* disable some rules until we refactor more completely; fixing them now would
    cause conflicts with some open PRs unnecessarily. */
 /* eslint react/jsx-sort-prop-types: 0, react/sort-comp: 0, react/prop-types: 0 */
 
-var React = require('react');
+//var React = require('react');
 var Input = require('react-input-autosize');
 var classes = require('classnames');
 var Value = require('./Value');
@@ -20793,8 +20793,8 @@ var Select = React.createClass({
 
 module.exports = Select;
 
-},{"./Option":158,"./SingleValue":160,"./Value":161,"classnames":1,"react":157,"react-input-autosize":2}],160:[function(require,module,exports){
-var React = require('react');
+},{"./Option":158,"./SingleValue":160,"./Value":161,"classnames":1,"react-input-autosize":2}],160:[function(require,module,exports){
+//var React = require('react');
 var classes = require('classnames');
 
 var SingleValue = React.createClass({displayName: "SingleValue",
@@ -20817,8 +20817,8 @@ var SingleValue = React.createClass({displayName: "SingleValue",
 
 module.exports = SingleValue;
 
-},{"classnames":1,"react":157}],161:[function(require,module,exports){
-var React = require('react');
+},{"classnames":1}],161:[function(require,module,exports){
+//var React = require('react');
 var classes = require('classnames');
 
 var Value = React.createClass({
@@ -20891,7 +20891,7 @@ var Value = React.createClass({
 
 module.exports = Value;
 
-},{"classnames":1,"react":157}],162:[function(require,module,exports){
+},{"classnames":1}],162:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
